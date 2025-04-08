@@ -1,0 +1,78 @@
+Show 3 things and going to be using a CPU (or Collab?)
+
+1. Zero Shot Object detection with a CLIP-like model
+2. Semantic Seg
+3. Generating embeddings5555555
+
+Big Question: 
+Should I do multispectral or not
+
+
+Dubai:
+Pros
+Small in size - 30 meg compressed
+Already has masks
+Not Multispectral
+Could try a grounding object detection
+High spatial resolution
+
+Cons
+Not Multispectral
+Needs to be chipped
+Probably about 400 Chips when finished
+
+
+-----------------------------------
+
+EuroSat - sent2
+Pros
+Multispectral
+Georeferenced
+Already chipped but only to 64x64
+Pixel size 10m
+
+
+
+Con
+HUGE in size - definitely need to subset
+Multispectral
+Really just set up for classification - no masks or individual ground truth - explains why chipped to 64
+
+
+-----------------------------------
+
+Flair - toy dataset
+Pros
+Multispectral
+512x512
+Already broken into different train/test
+Only 38 images in Train
+
+
+Cons
+Multispectral
+NumPy arrays are stacks of images over a certain time frame and would need to be merged - contains clouds
+
+
+-----------------------------------
+
+
+Rainforest - sent2
+Pros
+Already in test train val
+4 bands
+512x512
+Mask is just forest/not forest
+
+Cons
+1.1gig download
+
+
+-----------------------------------
+
+
+SEN12MS
+Pros
+
+
+
