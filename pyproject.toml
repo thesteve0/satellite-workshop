@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steven-pousty-project"
+version = "0.1.0"
+authors = [
+    {name = "Steven Pousty", email = "steve.pousty@gmail.com"},
+]
+description = "A Python project with ML and computer vision dependencies"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fiftyone",
+    "torch",
+    "torchvision",
+    "umap-learn",  # Full package name for UMAP
+    "open-clip-torch",
+    "huggingface_hub",
+    "openclip",
+    "notebook",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+]

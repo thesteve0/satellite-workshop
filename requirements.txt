@@ -1,0 +1,9 @@
+fiftyone
+torch
+torchvision
+umap-learn
+open-clip-torch
+huggingface_hub
+transformers
+notebook
+black
