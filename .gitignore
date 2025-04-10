@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/bigearth/
+/dubai/
+/eurosat/
+/flair/
+/rainforest/
+/sen12ms/
+/.idea/
